@@ -1,0 +1,152 @@
+.header {
+    display: flex;
+    gap: 16px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 10%;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-right:auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-one {
+    display: flex;    
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+div > img,
+button {
+    border-radius: 20px;
+}
+
+.container-one-header {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+button {
+    justify-content:center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: white;
+}
+
+.container-two-header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+img {
+    display: flex;
+}
+
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+    height: 150px;
+    width: 150px;
+    border: 2px blue solid;
+ }
+
+.images {
+    display: flex;
+    font-size: 20px;
+    width: min-content;
+    gap: 35px;
+}
+
+.container-three {
+    display: flex;
+    height: 30vh;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column;
+}
+
+.quote {
+    width: auto;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.name {
+    margin-left: 50px;
+}
+
+.container-four {
+    display: flex;
+    flex-grow: 0;
+    height: 10vh;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 10%;
+    padding: 30px;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.container-four-title {
+    font-size: 20px;
+}
+
+.container-four-text {
+    font-size: 15px;
+}
+
+.container-four-button {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10%;
+}
+
+button {
+    padding: 5px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
